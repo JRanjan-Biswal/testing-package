@@ -1,0 +1,25 @@
+{
+  "name": "create-nextjs-app-template-code",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "version-push": "version-push"
+  },
+  "dependencies": {
+    "date-pack": "^1.0.5",
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "swiper": "^11.2.10",
+    "version-push": "file:../version-push"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "sass": "^1.90.0",
+    "tailwindcss": "^4"
+  }
+}
