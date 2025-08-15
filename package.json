@@ -3,15 +3,16 @@
   "version": "0.2.1",
   "private": true,
   "scripts": {
-    "prepush": "npm run version-push",
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "version-push": "version-push"
+    "version-push": "version-push",
+    "prepare": "husky"
   },
   "dependencies": {
     "date-pack": "^1.0.5",
+    "husky": "^9.1.7",
     "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
