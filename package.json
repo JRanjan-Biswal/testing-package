@@ -3,13 +3,12 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "prepush": "npm run version-push-tty",
+    "prepush": "npm run version-push",
     "dev": "next dev --turbopack",
-    "build": "next build", 
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "version-push": "version-push",
-    "version-push-tty": "./run-with-tty.sh"
+    "version-push": "version-push"
   },
   "dependencies": {
     "date-pack": "^1.0.5",
